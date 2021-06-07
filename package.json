@@ -1,0 +1,24 @@
+{
+  "name": "video-chat-with-react",
+  "version": "1.0.0",
+  "description": "Video-chat using react, socket.io, nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "14.16.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "dev": "concurrently \" cd client && yarn start \" \" yarn server\""
+  },
+  "author": "Mohammad Sazzad Bin Anwar",
+  "license": "MIT"
+}
